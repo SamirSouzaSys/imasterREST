@@ -1,0 +1,6 @@
+GET /produtos/    Retorna uma lista de todos os produtos cadastrados;
+GET /produtos/<id>  Retorna o produto de acordo com a sua chave primária <id>;
+POST /produtos/  Salva o objeto produto. Como não há id, gera um INSERT;
+POST /produtos/<id>  Salva o objeto produto. Neste caso realiza um UPDATE. Poderia usar PUT também;
+DELETE /produtos/<id> Apaga o objeto produto;
+GET /categorias/ Obtém a lista de categorias.
